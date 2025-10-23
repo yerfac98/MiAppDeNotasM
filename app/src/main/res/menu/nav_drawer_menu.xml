@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_export"
+            android:icon="@drawable/ic_export"
+            android:title="Exportar Notas (.gfa)" /> <item
+        android:id="@+id/nav_save_general"
+        android:icon="@drawable/ic_save"
+        android:title="Guardar Cambios Actuales" /> <item
+        android:id="@+id/nav_import"
+        android:icon="@drawable/ic_import"
+        android:title="Importar Notas (.gfa)" />
+
+    </group>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_share_notes"
+                android:icon="@drawable/ic_share"
+                android:title="Compartir Archivo (.gfa)" />
+
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_share"
+                android:title="Compartir Aplicación" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="Acerca de la Aplicación" />
+        </menu>
+    </item>
+</menu>
